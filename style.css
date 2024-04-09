@@ -2,13 +2,22 @@
     font-family: 'Figtree';
     src: url(assets/fonts/Figtree-VariableFont_wght.ttf);
 }
+html{
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
 body{
+    height:100%;
     background-color: #f4d04e;
     font-family: "Figtree";
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
 }
 .container{
-    margin: 0px auto;
-    width: 384px;
+    max-width: 384px;
     height:522px;
     border: 1px solid black;
     border-radius: 5%;
@@ -19,6 +28,7 @@ body{
 .container:hover{
     box-shadow: black 12px 12px;
 }
+
 img{
     margin:20px;
     border-radius: 5%;
