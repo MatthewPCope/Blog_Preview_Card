@@ -6,15 +6,18 @@ body{
     background-color: #f4d04e;
     font-family: "Figtree";
 }
-#container{
+.container{
     margin: 0px auto;
     width: 384px;
     height:522px;
-    border: 2px solid black;
+    border: 1px solid black;
     border-radius: 5%;
     background-color: white;
-    margin-top: 125px;
-    
+    margin-top: 150px;
+    box-shadow: black 6px 6px;
+}
+.container:hover{
+    box-shadow: black 12px 12px;
 }
 img{
     margin:20px;
